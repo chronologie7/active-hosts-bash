@@ -5,6 +5,6 @@ for num in {2..254}; do
     then
         let "countHost++"
         echo "#$countHost: 192.168.1.$num" >> active_hosts.txt;
-        echo "host encontrado";
+        echo "host found!";
     fi
 done
